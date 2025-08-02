@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Warren Lee",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -11,117 +11,78 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Learn",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Technology",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "learn/python",
+              "learn/c",
+              "learn/algorithm",
+              "learn/ai",
+              "learn/web",
+              "learn/cyber",
+              "learn/cloud",
+              "learn/hardware",
+              "learn/developer"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Finance",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "Stock",
+              "Crypto"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Resources",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Technology",
             "pages": [
-              "api-reference/introduction"
+              "resources/llm",
+              "resources/genai",
+              "resources/infra",
+              "resources/vibe",
+              "resources/benchmark",
+              "resources/research"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Business",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "resources/startups",
+              "resources/vc",
+              "resources/shareholder"
+            ]
+          },
+          {
+            "group": "Finance",
+            "pages": [
+              "resources/stock"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Social",
+        "groups": [
+          {
+            "group": "Social Media",
+            "pages": [
+              "social/social",
+              "social/forum",
+              "social/dating"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
   }
 }
